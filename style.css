@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
     margin:0px;
 }
 
@@ -159,8 +158,8 @@ Header Section
 }
 #title-rc{
     text-align: center;
-    color: rgb(1, 1, 33);
-    font-size: 42px;
+    color: rgba(61, 1, 1, 0.979);
+    font-size: 32px;
     
     
 }
@@ -185,8 +184,9 @@ Header Section
 }
 .container-4 h1{
     text-align: center;
-    font-size: 42px;
+    font-size: 32px;
     margin-bottom: 60px;
+    color: rgba(61, 1, 1, 0.979);
     
 }
 .match-Summary{
@@ -194,6 +194,7 @@ Header Section
     margin-left: 10%;
     margin-right: 5%;
     align-items: center;
+    
     
     
     
@@ -221,12 +222,17 @@ Header Section
 /*--------------
 Footer-Style
 -------- -------*/
+
+
 .footer{
    display: block;
    text-align: center;
+   background-color: white;
+   padding-top: 137px;
+   
 }
 .logo{
-    margin-top: 137px;
+    
     margin-bottom: 20px;
 }
 .logo img{
@@ -250,4 +256,105 @@ Footer-Style
 
 .footer p{
     font-size: 18px;
+}
+
+/*-------------
+ Media Querries 
+ ------------------*/
+
+ /* Mobile Device */
+
+@media only screen and (max-width:688px) {
+
+    body{
+        width: 100%;
+    }
+   
+     .menu{
+        display:none;
+     }
+     .login-button{
+         margin-left: 80%;
+     }
+
+     .head{
+         display: flex;
+         flex-direction: column;
+         height: 130%;
+         align-items: center;
+         margin-bottom: 40px;
+        
+                
+     }
+     .title{
+         margin-top: 15px;
+        padding-left: 50px;
+     }
+     
+
+     .title h1{
+         font-size: 40px;
+         
+     }
+
+     .title-image img{
+         width: 329px;
+         height: 259px;
+         margin-left: 0%;
+         
+     }
+    
+     .container{
+         margin-left: 2%;
+         margin-right: 0%;
+     }
+     .players-info{
+        
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        
+       
+    }
+    
+
+    .highlights{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .container-2{
+        display: none;
+    }
+
+    .highlight-image img{
+        display: none;
+    }
+
+    .video{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 5%;
+        
+    }
+
+    .Frame-highlights{
+        display: flex;
+        flex-direction: column;
+    }
+    .match-Summary{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .sum-title{
+        margin-left: 0;
+    }
+    .sum-image img{
+        width: 80%;
+        height: 80%;
+    }
+    .logo img{
+        width: 60%;
+    }
 }
