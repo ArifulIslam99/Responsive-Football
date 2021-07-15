@@ -62,12 +62,22 @@ Header Section
    
 }
 
+
+
 .title-image img{
     width: 556px;
     height: 438px;
     margin-top: 100px;
-   margin-left: 102px;
+   margin-left: 202px;
+   
+   
 }
+.title-image:hover{
+    transform:  scale(1.1) translate(-80px,-30px);
+    transition: transform 1s ease-out ;
+
+}
+
 
 /*------------
  players info style 
