@@ -1,0 +1,243 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    margin:0px;
+}
+
+/* ----------
+Header Section 
+------------ */
+
+.nav{
+    background-color: blue;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 156px;
+    justify-content: space-between;
+    height: 24px;
+   
+    
+} 
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+    font-size: 16px;
+    
+}
+.login-button{
+    padding: 5px 24px;
+    border-radius: 10px;
+    background-color: #E02C6D;
+    font-size: 16px;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    height: 603px;
+    background-color: blue;
+    margin-bottom: 70px;
+}
+
+.title{
+    padding-left: 156px;
+    margin-top: 100px;
+}
+
+
+.title h1{
+    color: white;
+    font-size: 64px;
+    
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+   
+}
+
+.title-image img{
+    width: 556px;
+    height: 438px;
+    margin-top: 100px;
+   margin-left: 102px;
+}
+
+/*------------
+ players info style 
+---------- ---*/
+.container{
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.players-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.players{
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 27px;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.players h3{
+    font-size: 28px;
+}
+.players img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.players p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/*--------------
+ Highlights Style 
+ ----------------- */
+
+.highlights{
+    display: flex;
+
+    margin-top: 165px;
+}
+
+
+
+ .h-title h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.highlight-image img{
+
+    width: 567px;
+    height: 427px;
+    margin-left: 69px;
+    margin-right: 56px;
+
+}
+
+.h-title p{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.h-title{
+    margin-top: 59px;
+    margin-left: 182px;
+}
+
+
+/*---------------
+ Highlights Video
+ ---------------------  */
+.container-3{
+    margin-top:130px;
+}
+#title-rc{
+    text-align: center;
+    color: rgb(1, 1, 33);
+    font-size: 42px;
+    
+    
+}
+.Frame-highlights{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.video{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+/*----------------------
+ match-summary
+ ---------------------- */
+ 
+.container-4{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.container-4 h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 60px;
+    
+}
+.match-Summary{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    align-items: center;
+    
+    
+    
+}
+.sum-image img{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    
+}
+.sum-title{
+    margin-left: 30px;
+}
+
+
+.sum-title h2{
+    font-size: 32px;
+}
+.sum-title p{
+    color: #969BAB;
+    font-size: 16px;
+}
+
+
+/*--------------
+Footer-Style
+-------- -------*/
+.footer{
+   display: block;
+   text-align: center;
+}
+.logo{
+    margin-top: 137px;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 477px;
+
+}
+
+ .social-icons{
+     margin-bottom: 20px;
+ }
+ 
+
+.icons{
+    color: #969BAB;
+    width: 15.49px;
+    height: 12.8px;
+    border-radius: 50%;
+    margin-right: 14px;
+   
+}
+
+.footer p{
+    font-size: 18px;
+}
