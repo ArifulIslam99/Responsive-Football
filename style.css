@@ -243,13 +243,14 @@ Footer-Style
  .social-icons{
      margin-bottom: 20px;
  }
- 
+
+
 
 .icons{
     color: #969BAB;
     width: 15.49px;
     height: 12.8px;
-    border-radius: 50%;
+    
     margin-right: 14px;
    
 }
@@ -274,7 +275,7 @@ Footer-Style
         display:none;
      }
      .login-button{
-         margin-left: 60%;
+         margin-left: 75%;
      }
 
      .head{
@@ -353,6 +354,9 @@ Footer-Style
     .sum-image img{
         width: 80%;
         height: 80%;
+    }
+    .footer{
+        margin-bottom: 25%;
     }
     .logo img{
         width: 60%;
